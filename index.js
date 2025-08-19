@@ -26,7 +26,7 @@ const pool = mysql.createPool({
 
 // root route
 app.get('/', (req, res) => {
-  res.status(200).json({ message: 'Hello World from Node + MariaDB' })
+  res.status(200).json({ message: 'Hello World from Node' })
 })
 
 // สร้างผู้ใช้ใหม่
