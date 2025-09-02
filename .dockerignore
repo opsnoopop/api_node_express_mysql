@@ -6,5 +6,7 @@ Dockerfile
 README.md
 docker-compose.yml
 k6/
-mysql/
 node_modules/
+mysql/
+mysql_initdb/
+test*.sh
